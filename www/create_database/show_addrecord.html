@@ -1,0 +1,34 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+  <HEAD>
+    <TITLE>Add a Record</TITLE>
+  </HEAD>
+  <BODY>
+
+    <h1>Adding a Record to MY_PRODUCTS</h1>
+    <FORM method="POST" action="do_addrecord.php">
+      <table cellspacing=5 cellpadding=5>
+        <tr>
+          <td valign=top><strong>Item ID:</strong></td>
+          <td valign=top><INPUT type="text" name="item_id" size=5 maxlength=50/></td>
+        </tr>
+        <tr>
+          <td valign=top><strong>Item Title:</strong></td>
+          <td valign=top><INPUT type="text" name="item_title" size=30 maxlength=50/></td>
+        </tr>
+        <tr>
+          <td valign=top><strong>Item Description:</strong></td>
+          <td valign=top><TEXTAREA name="item_desc" cols=30 rows=5></TEXTAREA></td>
+        </tr>
+        <tr>
+          <td valign=top><strong>Item Price:</strong></td>
+          <td valign=top>$ <INPUT type="text" name="item_price" size=10/></td>
+        </tr>  
+        <tr>
+          <td align=center colspan=2><INPUT type="submit" value="Add Record"/></td>
+        </tr> 
+      </table>
+    </FORM>
+    
+  </BODY>
+</HTML>

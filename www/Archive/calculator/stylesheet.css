@@ -1,0 +1,21 @@
+div.main_interface {
+  width: 50%;
+  height: 105%;
+  background: white;
+  border: inset 5px green;
+  margin: 0 auto;
+}
+
+fieldset {
+  background: royalblue;
+  height: 27.5%;
+}
+
+#get {
+  background: cyan;
+  height: 9%;
+}
+
+.nav {
+  color: black;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+  <HEAD>
+    <TITLE>Calculator Menu</TITLE>
+  </HEAD>
+  <BODY>
+  <div class="main_interface">
+    <H1 align=center><B>Calculator</B>
+    <br />
+    <br />
+    <img src="Photos/Calculator.png" alt="Calculator" style="width:320px;height:284.5px"></H1>
+    <FORM method="POST" action="result.php">
+      <fieldset>
+        <P align=center>Select your first number: <INPUT type="text" name="x" size=10 maxlength=10 /></P>      
+        <P align=center>Select your mode of operation:       
+          <SELECT name="mode" size="1">
+            <OPTION value="add">+</OPTION>
+            <OPTION value="subtract">-</OPTION>
+            <OPTION value="multiply">*</OPTION>
+            <OPTION value="divide">/</OPTION> 
+          </SELECT>
+        </P> 
+  <!--          <input type="radio" name="mode" value="add" checked> +
+            <br>
+            <input type="radio" name="mode" value="subtract"> -
+            <br>
+            <input type="radio" name="mode" value="multiply"> *
+            <br>
+            <input type="radio" name="mode" value="divide"> /
+            <br>
+          <br>
+  -->
+        <P align=center>Select your second number: <INPUT type="text" name="y" size=10 maxlength=10 /></P>
+        <H1 align=center>
+          <INPUT type="submit" value="Submit" />
+        </H1>
+      </fieldset>
+    </FORM>
+          
+    <FORM method="POST" action="advanced_calculator_menu.html">
+      <fieldset id="get">
+        <P align=center class="Nav">Click here for Advanced Calculator Menu</P>
+        <P align=center><INPUT type="submit" value="Go" /></P>
+      </fieldset>
+    </FORM>
+  </div>
+  </BODY>
+</HTML>

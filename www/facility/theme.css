@@ -1,0 +1,57 @@
+table {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightblue;
+}
+
+form {margin: 0; padding:0;}
+
+div {
+  font-size: 100%;
+  font-weight: bold;
+  text-align: center;
+  background-color: lightsalmon;
+}
+
+p {
+  background-color: chartreuse;  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 5px inset darkgreen;
+  -webkit-animation: mymove 1s; /* Chrome, Safari, Opera */
+  animation-duration: 3s;
+}
+
+.specialeffect {
+  background-color: chartreuse;  
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 5px inset darkgreen;
+  -webkit-animation: mymove 1s; /* Chrome, Safari, Opera */
+  animation-duration: 3s;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+  50% {border: 10px solid #FF0066;} 
+  50% {background-color: #FF0066;}
+}
+
+.header {
+  font-size: 300%;
+  font-weight: bold;
+  background-color: #FFFF66;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.bluebackground {
+  background-color: lightblue;
+}
+
+.lightsalmonbackground {
+  background-color: lightsalmon;
+}

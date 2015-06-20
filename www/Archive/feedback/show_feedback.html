@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+  <HEAD>
+    <TITLE>Feedback Form</TITLE>
+  </HEAD>
+  <BODY>
+    
+    <FORM method="POST" action="do_sendfeedback.php">
+      <P>Your Name: <br><INPUT type="text" name="sender_name" size=30></P> 
+      <P>Your E-Mail Address: <br><INPUT type="text" name="sender_mail" size=30></P>
+      
+      <P>Did you like this site?       
+      <INPUT type="radio" name="like_site" value="Yes" checked> yes
+      <INPUT type="radio" name="like_site" value="No"> no
+        </P>
+        
+      <P>Additional Message: <br>
+      <textarea name="message" cols=30 rows=5></textarea>
+      </P>
+        
+      <INPUT type="submit" value="Send This Form">
+        </FORM>
+                                  
+  </BODY>
+</HTML>
